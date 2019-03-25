@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F9F9;
+    color: #22333B;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    margin:20px 5px 0 5px;
+    padding:0;
+}
+
+.PersonList {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.PersonList, .PersonList li {
+    margin: 0 5px 15px 5px;
+    padding: 20px;
+}
+
+.PersonList li {
+    display: inline-block;
+    border: 2px solid #999999;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
